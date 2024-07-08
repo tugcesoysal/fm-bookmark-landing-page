@@ -3,7 +3,7 @@ import "./index.css";
 
 function App() {
   const [activeTab, setActiveTab] = useState(0);
-  const [features, setFeatures] = useState([
+  const features = [
     {
       image: "./images/illustration-features-tab-1.svg",
       header: "Bookmark in one click",
@@ -19,7 +19,7 @@ function App() {
       header: "Share your bookmarks",
       text: "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.",
     },
-  ]);
+  ];
   const [openQuestions, setOpenQuestions] = useState([
     false,
     false,
