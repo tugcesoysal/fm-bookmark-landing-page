@@ -103,7 +103,7 @@ h5 {
 /* HEADER */
 
 header {
-  margin: 40px 10%;
+  margin: 40px 10% 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -150,7 +150,7 @@ header {
 /* HERO SECTION */
 
 .hero {
-  margin: 100px 10%;
+  margin: 100px 10% 0;
   display: flex;
   align-items: center;
 
@@ -196,7 +196,7 @@ header {
 /* FEATURES SECTION */
 
 .features {
-  margin: 80px 10%;
+  margin: 180px 10% 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -272,7 +272,7 @@ header {
 /* EXTENSIONS */
 
 .extensions {
-  margin: 200px 10%;
+  margin: 240px 10% 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -324,7 +324,7 @@ header {
 /* QUESTIONS */
 
 .questions {
-  margin: 100px auto;
+  margin: 150px auto;
   max-width: 540px;
   display: flex;
   flex-direction: column;
@@ -388,7 +388,7 @@ header {
 
   .form {
     width: 100%;
-    max-width: 500px;
+    max-width: 450px;
     margin: 15px 0;
     display: flex;
     align-items: flex-start;
@@ -656,12 +656,15 @@ footer {
   }
 
   header {
+    margin: 40px 32px 0;
+
     .menu-icon {
       cursor: pointer;
     }
   }
 
   .hero {
+    margin: 80px 32px 0;
     flex-direction: column-reverse;
     gap: 94px;
 
@@ -678,11 +681,13 @@ footer {
       &::after {
         width: 577px;
         height: 200px;
+        top: 30%;
       }
     }
   }
 
   .features {
+    margin: 140px 32px 0;
     flex-direction: column;
 
     .features__nav ul {
@@ -693,9 +698,6 @@ footer {
       li {
         padding: 20px 75px;
         border-bottom: 1px solid hsla(231, 69%, 60%, 0.2);
-
-        &.active {
-        }
       }
     }
 
@@ -718,8 +720,7 @@ footer {
   }
 
   .extensions {
-    margin-top: 77px;
-    margin-bottom: 40px;
+    margin: 77px 32px 0;
 
     .extension-cards {
       flex-direction: column;
@@ -733,7 +734,7 @@ footer {
   }
 
   .questions {
-    padding: 0 32px;
+    margin: 140px 32px 120px;
   }
 
   .contact {
@@ -758,11 +759,12 @@ footer {
   footer {
     padding: 40px 0;
     flex-direction: column;
+    gap: 0;
 
     .nav-list {
       flex-direction: column;
       align-items: center;
-      margin: 0 auto;
+      margin: 40px auto 48px;
       gap: 32px;
     }
   }
