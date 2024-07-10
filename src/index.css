@@ -3,7 +3,7 @@
   --soft-red: hsl(0, 94%, 66%);
   --grayish-blue: hsl(229, 8%, 60%);
   --very-dark-blue: hsl(229, 31%, 21%);
-  --medium: 500;
+  --menu-bg: hsla(229, 31%, 21%, 0.95);
 }
 
 /* BASE */
@@ -507,7 +507,7 @@ footer {
   width: calc(100% - 64px);
   height: calc(100% - 80px);
   z-index: 2;
-  background-color: hsla(from var(--very-dark-blue) h s l / 0.95);
+  background-color: var(--menu-bg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -703,7 +703,7 @@ footer {
 
     .feature {
       flex-direction: column;
-      gap: 60px;
+      gap: 100px;
 
       .feature__image {
         &::after {
